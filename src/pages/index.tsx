@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <main>
         <div className="sm:px-8 mt-9">
-          <div className="mx-auto max-w-7xl lg:px-8">
+          <div className="flex w-full max-w-7xl lg:px-8">
             <div className="relative px-4 sm:px-8 lg:px-12">
               <div className="mx-auto max-w-2xl lg:max-w-5xl">
                 <div className="max-w-2xl">
@@ -24,15 +24,16 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="flex mt-6 gap-6">
-                  <Image src="./images/html.svg" height={30} width={30} alt="" />
-                  <Image src="./images/css.svg" height={30} width={30} alt="" />
+                <div className="my-4 flex justify-right gap-5 overflow-hidden">
+
+
+                  <Image src="./images/node.svg" height={30} width={30} alt="" />
                   <Image src="./images/javascript.svg" height={30} width={30} alt="" />
                   <Image src="./images/react.svg" height={30} width={30} alt="" />
                   <Image src="./images/typescript.svg" height={30} width={30} alt="" />
-                  <Image src="./images/node.svg" height={30} width={30} alt="" />
                   <Image src="./images/next-js.svg" height={30} width={30} alt="" />
                   <Image src="./images/tailwindcss.svg" height={30} width={30} alt="" />
+
                 </div>
 
               </div>

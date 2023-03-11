@@ -16,16 +16,22 @@ function Layout({ children }: any) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.png" />
             </Head>
-            <div className='relative inset-0 flex justify-center sm:px-8'>
-                <div className="flex w-full max-w-7xl lg:px-8">
-                    <div className="w-full bg-white">
-                        <Navbar pageId={children.props.pageId} />
-                        {/* <Homenav pageId={children.props.pageId} /> */}
-                        <main>{children}</main>
-                        <Footer />
+            <div>
+                <body className='flex h-full flex-col bg-zinc-50dark:bg'>
+
+                    <div className='relative inset-0 flex justify-center sm:px-8'>
+                        <div className="flex w-full max-w-7xl lg:px-8">
+                            <div className="w-full bg-white">
+                                <Navbar pageId={children.props.pageId} />
+                                {/* <Homenav pageId={children.props.pageId} /> */}
+                                <main>{children}</main>
+                                <Footer />
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </body>
             </div>
+
         </>
     )
 }
