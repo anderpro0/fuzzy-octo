@@ -5,7 +5,7 @@ import Head from "next/head"
 import Homenav from './Navbar/Homenav';
 
 
-const Layouts: React.FC = ({ children }: any) => {
+function Layout({ children }: any) {
 
     return (
 
@@ -29,4 +29,4 @@ const Layouts: React.FC = ({ children }: any) => {
         </>
     )
 }
-export default Layouts;
+export default Layout;
