@@ -22,6 +22,19 @@ const articles = () => {
                                     I'm really not the writer guy, but I'm fast becoming it. It's been very helpful documenting basic programming principles, design ideas and tools I learn on the go.
                                 </p>
                             </header>
+                            <div className="mt-16 sm:mt-20">
+                                <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
+                                    <div className="flex max-w-3xl flex-col space-y-16">
+                                        <article className="md:grid md:grid-cols-4 md:items-baseline">
+                                            <div className="md:col-span-3 group relative flex flex-col items-start">
+                                                <h2 className="text-base font-semibold tracking-tight text-zinc-800dark:text-zinc-100">
+
+                                                </h2>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
